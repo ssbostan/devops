@@ -2114,9 +2114,8 @@ small {
 }
 
 .img-alt {
-  width: 40% !important;
+  width: 30%;
 }
-
 .text-alt,
 .counter-box .counter-content .title {
   color: #8d93a0;
@@ -5927,6 +5926,28 @@ button[type="submit"] .loading {
   margin: 0;
   padding: 0;
 }
+/* ----------------------------------------------------------------------------
+    referee
+---------------------------------------------------------------------------- */
+#referee .speaker .photo-wrapper.rounded {
+  border-radius: 50%;
+  overflow: hidden;
+  border: 3px solid rgb(54, 4, 255);
+}
+
+/* ----------------------------------------------------------------------------
+    team
+---------------------------------------------------------------------------- */
+#team .speaker .photo-wrapper.rounded {
+  border-radius: 20%;
+  overflow: hidden;
+  border: 5px solid rgb(255, 138, 4);
+}
+
+#team a {
+  color: blue;
+}
+
 @media (max-width: 480px) {
   .speakers.masonry .speaker-top {
     padding-right: 60px;
