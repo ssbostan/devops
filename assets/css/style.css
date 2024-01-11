@@ -6044,7 +6044,7 @@ button[type="submit"] .loading {
   }
   .sponsor.big {
     margin: 10px;
-    width: 115px;
+    width: 50%;
     height: 115px;
   }
 }
